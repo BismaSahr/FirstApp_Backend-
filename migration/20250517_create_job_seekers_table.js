@@ -12,7 +12,9 @@ exports.up = function(knex) {
     table.string('experience_level', 100).nullable();
     table.text('desired_job_titles').nullable();
     table.text('education').nullable();
-  });
+    table.string('profile_image', 255).nullable();
+
+NULL});
 };
 
 /**

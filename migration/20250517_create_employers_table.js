@@ -8,6 +8,7 @@ exports.up = function(knex) {
     table.string('company_name', 255).notNullable();
     table.string('industry', 255).notNullable();
     table.string('website', 255).nullable();
+    table.string('profile_image', 255).nullable();
   });
 };
 
