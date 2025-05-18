@@ -20,15 +20,14 @@ This is the backend API for the Jobify mobile application. It handles user regis
 
 Follow the steps below to set up the backend server:
 Create a folder:
-### . Clone the Repository
 
+
+### . Clone the Repository
 ```bash
 git clone https://github.com/BismaSahr/FirstApp_Backend-
 
 
-
  ### 📦 Install Dependencies
-
 ```bash
 npm init -y
 npm install express mysql2 knex dotenv bcrypt jsonwebtoken multer
@@ -41,8 +40,11 @@ DB_NAME=Your_db_Name
 PORT=Your_Port
 JWT_SECRET=jwt_secret
 
-```Migration Run
+
+
+📁 Run Database Migrations
 npx knex migrate:latest
 
-
+🚀 Start Backend Server
+npm start
 
