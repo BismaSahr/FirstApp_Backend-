@@ -24,7 +24,7 @@ Create a folder:
 
 ### . Clone the Repository
 ```bash
-git clone https://github.com/BismaSahr/FirstApp_Backend-
+git clone https://github.com/BismaSahr/Jobify_Backend
 
 
  ### 📦 Install Dependencies
