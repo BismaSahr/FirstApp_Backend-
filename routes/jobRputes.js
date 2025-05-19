@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const db = require('../db'); // Your database connection module
+const db = require('../config/db'); // Your database connection module
 
 // Route to create a new job posting
 router.post('/', (req, res) => {

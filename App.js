@@ -7,9 +7,12 @@ const jobseekerRoutes = require('./routes/jobseekerRoutes');
 const employerRoutes = require('./routes/employerRoutes');
 const authRoutes = require('./routes/authRoutes');
 const profileRoutes = require('./routes/profileRoutes');
-const jobsRouter = require('./routes/jobs');
+const jobsRouter = require('./routes/jobRputes');
 const savedRoutes = require('./routes/savedRoutes');
 const jobApplicationRoutes = require('./routes/jobApplicationRoutes');
+
+
+
 const authenticateToken = require('./middleware/auth');
 
 
